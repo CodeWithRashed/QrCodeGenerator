@@ -9,13 +9,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
+        <div class="card" id="card">
                 <input placeholder="URL or Text" id="inputtext">
-            <div class="imagebox">
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" alt="" id="qrimg">
+            <div class="imagebox" id="imagebox" >
+                <img src="" alt="" id="qrimg">
             </div>
-                <button>Generate QR Code</button>
+                <button onclick="generateQr()">Generate QR Code</button>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
