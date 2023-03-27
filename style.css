@@ -15,7 +15,7 @@ padding:0;
 
 .card{
     width: 250px;
-    height: 270px;
+    height: 140px;
     background-color: #fff;
     padding: 3%;
     border-radius: 20px;
@@ -23,28 +23,39 @@ padding:0;
     overflow: hidden;
     box-shadow: 28px 35px 90px 18px rgba(0,0,0,0.31);
 }
+.cardafter{
+    height: 270px;
+    transition: 0.5s;
+}
 
 input {
+    width: 95%;
     padding: 5px;
-    width: 100%;
     height: 25px;
     border-radius: 10px;
-    border: 2px solid #1d1d1d;
+    border: 2px solid #d1d1d1;
   }
 
   .imagebox{
-    background-color: #1d1d1d;
-    width: 150px;
-    height: 150px;
-    margin: auto;
+    width: 0;
+    height: 0;
+    margin: 6px auto;
     padding: 20px;
     border-radius: 10px;
+    
   }
-  
+  .imageboxafter{
+    height: 150px;
+    width: 150px;
+    border: solid 1px #d1d1d1;
+    transition: 0.5s;
+  }
+
+
 button {
   padding: 10px;
   align-items: center;
-  background-color: #fa6400;
+  background-color: #8a2be2;
   border: 1px solid transparent;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -58,11 +69,7 @@ button {
 }
 
 
-button:hover {
-  transform: translateY(-1px);
-}
-
 button:active {
-  background-color: #c85000;
-  transform: translateY(0);
+  background-color: #7c10e0;
+  transform: translateY(-1px);
 }
