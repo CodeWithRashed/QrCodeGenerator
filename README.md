@@ -1,3 +1,5 @@
+Live Link : [\[Github\]](https://codewithrashed.github.io/QrCodeGenerator/)
+
 # JavaScript QR Code Generator
 
 This is a simple JavaScript application that generates QR codes from user input.
@@ -22,3 +24,6 @@ If the input field is empty, the application will display an error message and s
 ## Credits
 
 This application was created by me. It uses the QR Server API to generate QR codes.
+
+## Knowledge
+This is a simple QR code gen app made with JavaScript.  It helps me to learn about api calls and how to handle data from fetch. 
